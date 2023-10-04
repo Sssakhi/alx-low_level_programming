@@ -1,20 +1,17 @@
 #include <stdio.h>
-
 /**
- * main - Prints the alphabet.
+ * main - fonction that print alphabet in lowcase
  *
- * Return: Always 0 (Success)
+ * Return: Always 0 (success)
  */
-int main(void)
+int main()
 {
-	char alp[26] = "abcdefghijklmnopqrstuvwxyz";
 	int i;
-
+	char alph[] = "abcdefghijklmnopqrstuvwxyz";
 	for (i = 0; i < 26; i++)
 	{
-		putchar(alp[i]);
+		putchar(alph[i]);
 	}
 	putchar('\n');
 	return (0);
 }
-
