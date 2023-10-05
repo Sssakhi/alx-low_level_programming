@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main - foction that prints numbers
+ * main - foction that prints numbers from 0 to 9
  *
- * return: Always 0 (success)
+ * return:Always 0 (success)
  */
 int main(void)
 {
