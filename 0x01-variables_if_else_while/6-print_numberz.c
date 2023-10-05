@@ -7,11 +7,10 @@
 int main(void)
 {
 	int i;
-	char num[] = "0123456789";
 
-	for (i = 0; i < 10; i++)
+	for (i = 48; i < 58; i++)
 	{
-		putchar(num[i]);
+		putchar(i);
 	}
 	putchar('\n');
 	return (0);
