@@ -1,19 +1,18 @@
 #include <stdio.h>
-
 /**
- * main - Prints numbers from 0 to 9.
+ * main - foction that prints numbers
  *
- * Return: Always 0 (Success)
+ * return: Always 0 (success)
  */
 int main(void)
 {
 	int i;
+	char num[] = "0123456789";
 
-	for (i = 48; i < 58; i++)
+	for (i = 0; i < 10; i++)
 	{
-		putchar(i);
+		putchar(num[i]);
 	}
 	putchar('\n');
 	return (0);
 }
-
