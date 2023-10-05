@@ -7,10 +7,10 @@
 int main(void)
 {
 	int i;
-	char  alph[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
-	 for (i = 0; i < 52; i++)
-	 {
-		 putchar(alph[i]);
-	 }
-	 return (0);
+	char alp[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	for(i = 0; i < 52; i++)
+	{
+		putchar(alph[i]);
+	}
+	return (0);
 }
